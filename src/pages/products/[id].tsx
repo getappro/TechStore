@@ -23,7 +23,7 @@ export default function ProductPage({ product }: Props) {
   return (
     <>
       <Head>
-        <title>{product.title} - TechStore</title>
+        <title>{`${product.title} - TechStore`}</title>
       </Head>
       <main className="container">
         <Link href="/">← Retour</Link>
